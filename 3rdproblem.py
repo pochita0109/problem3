@@ -32,7 +32,8 @@ while True:
         numbered_message = ord(nospace_message[i])-65
 
 # Convert the letters of keyword into numbers
-
+        numbered_keyword = ord(nospace_key[i])-65
+        
 # Take the result mod 26 
 
 # Match the converted numbers into its equivalent letter
