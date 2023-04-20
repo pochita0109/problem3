@@ -36,10 +36,12 @@ while True:
         
 # Take the result mod 26 
         modular_result = (numbered_message + numbered_keyword) % 26
-        
+
 # Match the converted numbers into its equivalent letter
+        ciphered_letter = chr(modular_result + 65)
 
 # Save the ciphertext
+        cipher_text += ciphered_letter
 
 # Print the result
 
