@@ -8,10 +8,13 @@ print("VIGENERE CIPHER".center(45, "="))
 name = input("\033[93mPlease enter your name: ")
 
 # Ask the user to input the message and keyword
-message_input = input("\033[95mPlease enter the message: ")
-key_input = input("\033[92mPlease enter the keyword: ")
+while True:
+    message_input = input("\033[95mPlease enter the message: ")
+    key_input = input("\033[92mPlease enter the keyword: ")
 
 # Convert the message and keyword to uppercase
+    upper_message = message_input.upper()
+    upper_key = key_input.upper()
 
 # Convert the message and keyword with no spaces
 
