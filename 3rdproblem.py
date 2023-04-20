@@ -20,7 +20,9 @@ while True:
     nospace_message = upper_message.replace(" ", "")
     nospace_key = upper_key.replace(" ", "")
 
-# Convert the keyword with in order to become same character with message
+# Convert the keyword in order to become same character with message
+    key_converted = nospace_key*(len(nospace_message)//len(nospace_key)+1)
+    key_converted = key_converted[:len(nospace_message)]
 
 # Converting the message and key into ciphertext
 
