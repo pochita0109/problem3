@@ -35,7 +35,8 @@ while True:
         numbered_keyword = ord(nospace_key[i])-65
         
 # Take the result mod 26 
-
+        modular_result = (numbered_message + numbered_keyword) % 26
+        
 # Match the converted numbers into its equivalent letter
 
 # Save the ciphertext
