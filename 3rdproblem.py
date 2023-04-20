@@ -5,8 +5,11 @@
 print("VIGENERE CIPHER".center(45, "="))
 
 # Ask the user to input their name
+name = input("\033[93mPlease enter your name: ")
 
 # Ask the user to input the message and keyword
+message_input = input("\033[95mPlease enter the message: ")
+key_input = input("\033[92mPlease enter the keyword: ")
 
 # Convert the message and keyword to uppercase
 
