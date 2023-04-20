@@ -25,8 +25,11 @@ while True:
     key_converted = key_converted[:len(nospace_message)]
 
 # Converting the message and key into ciphertext
+    cipher_text = ""
+    for i in range(len(nospace_message)):
 
-#Convert the letters of message into numbers 
+# Convert the letters of message into numbers 
+        numbered_message = ord(nospace_message[i])-65
 
 # Convert the letters of keyword into numbers
 
