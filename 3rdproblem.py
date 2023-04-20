@@ -17,6 +17,8 @@ while True:
     upper_key = key_input.upper()
 
 # Convert the message and keyword with no spaces
+    nospace_message = upper_message.replace(" ", "")
+    nospace_key = upper_key.replace(" ", "")
 
 # Convert the keyword with in order to become same character with message
 
