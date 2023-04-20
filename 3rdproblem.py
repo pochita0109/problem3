@@ -44,5 +44,15 @@ while True:
         cipher_text += ciphered_letter
 
 # Print the result
+        print("\033[91mThe ciphered text is:", cipher_text)
 
 # Ask the user if he/she wants to continue
+        while True:
+            question = input("Do you want to continue (Yes/No): ")
+            if question == "Yes":
+                break
+            elif question == "No":
+                print("Thank you for using Decrypt")
+                exit()
+            else:
+                print("Invalid Answer")
